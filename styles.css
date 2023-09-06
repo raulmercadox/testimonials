@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin:0;
+}
+
+.title {
+    margin: 0;
+    margin-bottom: 61px;
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 3.401875rem;
+    color: #D9381E;
+}
+
+.container {
+    width: 840px;
+    margin: 80px auto 0;
+    background-color: white;
+}
+
+.testimonials {
+    display: flex;
+    justify-content:space-between;
+}
+
+.testimonial {
+    width: 244px;
+    background-color: #EDEDED;
+    border-radius: 24px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 34px;
+}
+
+.person {
+    border-radius: 50%;
+    width: 149px;
+    margin: 25px auto 48px;
+    display: block;
+}
+
+.speech {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.0625rem;
+    text-align: center;
+    margin-bottom: 32px;
+    line-height: 140%;
+}
+
+.speech .bold {
+    font-weight: 700;
+}
+
+.name {
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    color: #D9381E;
+    font-size: 1.17625rem;
+    margin-bottom: 8px;
+}
+
+.role {
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    color: #7A7A7A;
+    font-size: 0.875rem;
+}
